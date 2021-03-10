@@ -10,7 +10,8 @@ public class EmployeeService {
 	String codes[] = new String[employees.length];
 	int count = -1;
 	for (String empid : employees) {
-	codes[++count] = empid.substring(0, 3);
+	codes[++count] = empid.substring(3, 6);
+	
 	}
 	return codes;
 	}
