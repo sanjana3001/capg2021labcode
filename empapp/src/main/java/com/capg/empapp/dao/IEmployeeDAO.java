@@ -6,7 +6,7 @@ package com.capg.empapp.dao;
 	import com.capg.empapp.execptions.WrongSalaryException;
 
 	public interface IEmployeeDAO {
-		
+		 
 		 public boolean addEmployee(Employee e)throws WrongSalaryException;
 		 
 		 public boolean editSalaryByEmployeeId(int salary, int id)throws InvalidEmployeeIdExcption;

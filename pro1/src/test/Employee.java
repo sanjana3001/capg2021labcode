@@ -7,6 +7,13 @@ public  class Employee {
 	 private String name;
 	 private int salary;
 	 private int exp;
+	
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
+	public Employee(int i, String string, int j) {
+		// TODO Auto-generated constructor stub
+	}
 	public String getName() {
 		return name;
 	}
